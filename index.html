@@ -1,0 +1,98 @@
+<!--This project was made only with studies purpose.
+    It was made to conclude part of the Udacit Front End basic course
+    the links bellow are mockups only.
+    Thank you!
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Projeto para Udacity" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta charset="utf-8">
+    <base target="_blank">
+    <title>Projeto portifólio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <!--IMAGENS COLETADAS EM https://picsum.photos -->
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <div class="header">
+                <div class="col-xs-6 col-md-6">
+                    <img src="images/logo100x100.jpg" alt="Site logo">
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <h1 class="text-right text-uppercase titulo">Jane Doette</h1>
+                    <h3 class="text-right text-uppercase subtitulo">Front-end Ninja</h3>
+                </div>
+            </div>
+        </header>
+
+        <hr id="quebra">
+        <section class="row">
+            <div class="col-md-12">
+                <picture>
+                    <source media="(max-width:550px)" srcset="images/550192_header.jpg">
+                    <source media="(min-width:551px)" srcset="images/1300350_header.jpg">
+                    <img src="images/550192_header.jpg" alt="Homem de costas sentado em um banco" class="imagem">
+                </picture>
+            </div>
+        </section>
+
+        <!--Começo do bloco de Featured Works-->
+
+        <section class="row">
+            <div class="col-md-12">
+                <h3 id="titulo-carrossel">Featured Work</h3>
+            </div>
+        </section>
+
+        <section class="row carrossel">
+            <div class="col-md-4">
+                <picture>
+                    <source media="(max-width:550px)" srcset="images/300200_2.jpg">
+                    <source media="(min-width:551px)" srcset="images/720480_2.jpg">
+                    <img src="images/300200_2.jpg" alt="Deck envolto por lago e montanhas" class="imagem">
+                </picture>
+                <h2>Appify</h2>
+                <div class="links">
+                    <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <picture>
+                    <source media="(max-width:550px)" srcset="images/300200_1.jpg">
+                    <source media="(min-width:551px)" srcset="images/720480_1.jpg">
+                    <img src="images/300200_1.jpg" alt="Homem em frente a montanhas e lago" class="imagem">
+                </picture>
+                <h2>Sunflower</h2>
+                <div class="links">
+                    <a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <picture>
+                    <source media="(max-width:550px)" srcset="images/300200_3.jpg">
+                    <source media="(min-width:551px)" srcset="images/720480_3.jpg">
+                    <img src="images/300200_3.jpg" alt="Cafe quente e livro iluminado pela luz matinal" class="imagem">
+                </picture>
+                <h2>Bokeh</h2>
+                <div class="links">
+                    <a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+                </div>
+            </div>
+        </section>
+        <!--fim do bloco Featured Works-->
+
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

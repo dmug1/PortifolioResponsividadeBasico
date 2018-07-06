@@ -1,0 +1,50 @@
+* {
+  color: #2d3c49;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.header {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.titulo {
+  margin-bottom: 0;
+}
+
+.subtitulo {
+  margin-top: 0;
+}
+
+.imagem {
+  width: 100%;
+}
+
+.carrossel {
+  text-align: center;
+}
+
+.links {
+  text-decoration: none;
+  color: #2d3c49;
+}
+
+#quebra {
+  display: inline-block;
+  width: 100%;
+  border-top: 3px solid;
+}
+
+#titulo-carrossel {
+  color: #7d97ad;
+}
